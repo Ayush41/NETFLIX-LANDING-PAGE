@@ -191,3 +191,60 @@ case2{
 }
 
 /* Showcase 3 */
+.case3 .showcase-animation{
+    width:395px ;
+    height: 225px;;
+    top: 50px;
+    left: 120px;
+}
+
+footer{
+    color: #757575;
+    margin: 3rem auto;
+    width: 70%;
+}
+footer .links > *{
+    margin-bottom: 20px;
+}
+
+footer p{
+    margin-bottom: 2rem;
+}
+
+footer .links ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+footer .language{
+    padding: 1rem 0;
+    font-weight: 700;
+    cursor: pointer;
+    width: 15%;
+    font-family: inherit;
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 0.2rem;
+
+}
+
+footer .dropdown-list{
+    width: 100%;
+}
+footer .language:active{
+    outline: 1px solid #fff;
+    box-shadow: 0 0 0 2px #fff;
+
+}
+
+footer .dropdown-list ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 58px;
+    background: #000;
+    border: 1px solid #333;
+    width: 100%;
+}
