@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 110vh;
+    position: relative;
+    border-bottom: 10px #333 solid;
+    box-shadow: inset 0 50px 300px #000,inset 0 -52px 300px #000;
+    /* background: url(); img to be put in */ 
+    background: #141010;
+}
+
+.header .inner-container{
+    margin-top: 10rem;
+
+}
+.header .inner-title{
+    width: 50%;
+    text-align:center;
+}
+.header h1{
+    margin-bottom: 1rem;
+}
+.header .inner-text{
+    width: 50%;
+    text-align: center;
+}
+.overlay{
+    height: 100%;
+    width:100%;
+    background: #000;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 15px 25px;
+    z-index: 1;
+}
+.logo>img{
+    width: 150px;
+}
+
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    background: #e50914;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background: #fd1c27;
+}
+ul{
+    list-style: none;
+}
+.lg{
+    font-size: 1.5rem;
+}
+
+.btn-lg{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0;
+    background: #e50914;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.btn-lg:hover{
+    background: #fd1c27;
+}
+
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    line-height: 1.25;
+
+}
+
+.inner-title h1{
+    margin-bottom: 1rem;
+}
+
+.inner-text{
+    font-size: 1.5rem;
+    width: 90%;
+}
+
+.email{
+    margin: 1rem;
+}
+.email .get-started{
+    padding-top: 1rem;
+    display: flex;
+    height: 80%;
+}
+
+.email .get-started > input{
+    border-radius: 2px 0 0 2px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 3px solid #333;
+    flex: 1;
+}
+
+.showcase{
+    border-bottom: 10px solid #333;
+    padding: 2rem 0;
+}
+
+.showcase-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.showcase-img{
+    position: relative;
+    z-index: 1;
+
+}
+
+.showcase-animation{
+    position: relative;
+    left: 75px;
+    top: 95px;
+    z-index: -1;
+}
