@@ -248,3 +248,14 @@ footer .dropdown-list ul{
     border: 1px solid #333;
     width: 100%;
 }
+
+footer .dropdown-list li{
+    margin: 0.5rem 0;
+}
+
+/* shadown dropdown items */
+footer .dropdown-list ul.show{
+    display: block;
+}
+
+
