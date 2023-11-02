@@ -55,15 +55,15 @@ h1{
     width: 50%;
     text-align: center;
 }
-.overlay{
+.overlay {
     height: 100%;
-    width:100%;
+    width: 100%;
     background: #000;
-    opacity: 0.4;
+    position: absolute;
     left: 0;
     top: 0;
-    position: absolute;
-}
+    opacity: 0.4;
+  }
 
 .logo{
     display: flex;
@@ -77,6 +77,10 @@ h1{
     width: 150px;
 }
 
+.img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
 .btn{
     text-decoration: none;
@@ -123,17 +127,29 @@ ul{
 
 }
 
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    line-height: 1.25;
+}
+
 .inner-title h1{
     margin-bottom: 1rem;
 }
 
 .inner-text{
     font-size: 1.5rem;
-    width: 90%;
+    width: 70%;
 }
 
 .inner-title{
     font-size: 1.8rem;
+    width: 90%;
 }
 
 .email{
@@ -167,62 +183,71 @@ ul{
 .showcase-img{
     position: relative;
     z-index: 1;
+    right: 100px;
 
 }
 
-.showcase-animation{
+.showcase-animation {
     position: relative;
-    left: 75px;
-    top: 95px;
+    right: -10px;
+    top: 100px;
     z-index: -1;
 }
 
-.case2{
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.case2 {
     width: 90%;
-}
-
-.showcase-container .case2 > .showcase-img{
+  }
+  
+  .showcase-container.case2 > .showcase-img {
     margin: 1.2rem 0;
-}
-
-.downloading{
- background: #000;   
- width: 60%;
- height: 125px;
- position: absolute;
- top: 335px;
- left: 125px;
- border: 5px solid #333;
- border-radius: 10px;
- padding: 0.7rem;
- display: flex;
-
-}
-
-.downloading >img{
+  }
+  
+  .downloading {
+    background: #000;
+    width: 60%;
+    height: 125px;
+    position: absolute;
+    top: 335px;
+    left: 125px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    padding: 0.7rem;
+    display: flex;
+  }
+  
+  .downloading > img {
     height: 100%;
-
-}
-
-.download-text{
+  }
+  
+  .download-text {
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.download-text >p{
+  }
+  
+  .download-text > p {
     color: #0066e3;
-}
-
+  }
+  
 /* Showcase 3 */
-.case3 .showcase-animation{
-    width:395px ;
-    height: 225px;;
+.case3 .showcase-animation {
+    width: 395px;
+    height: 225px;
     top: 50px;
     left: 120px;
+  }
+.showcase-animation{
+    position: absolute;
+    z-index: 1;
 }
-
 p {
     display: block;
     margin-block-start: 1em;
@@ -231,14 +256,33 @@ p {
     margin-inline-end: 0px;
 }
 
-.fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
+.email-form {
+    margin: 1rem;
+  }
+  .email-form .get-started {
+    padding-top: 1rem;
+    display: flex;
+    height: 80%;
+  }
+  
+  .email-form .get-started > input {
+    border-radius: 2px 0 0 2px;
+    border: 3px solid #333;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    outline: none;
+    flex: 1;
+  }
+  
+  .email-form .btn-lg {
+    border-radius: 0 2px 2px 0;
+  }
+
+.img{
+    top: 50px;
+    bottom: 50px;
+    left: -563px;
+    right: 60px;
 }
 
 /* faq list */
