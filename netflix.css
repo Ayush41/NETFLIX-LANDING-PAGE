@@ -198,6 +198,69 @@ case2{
     left: 120px;
 }
 
+
+/* faq list */
+.faq {
+    border-bottom: 10px solid #333;
+  }
+  
+  .faq .inner-container {
+    line-height: 1.5;
+    margin: 2rem 0;
+  }
+  
+  .faq .inner-title {
+    text-align: center;
+  }
+  .faq h1 {
+    margin-bottom: 5rem;
+  }
+  
+  .faq h2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+  
+  .faq ul {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .faq li {
+    border-bottom: 5px solid #000;
+    background: #333;
+    cursor: pointer;
+  }
+  
+  .faq li.show i {
+    transform: rotate(45deg);
+  }
+  
+  .faq li > p {
+    padding: 1rem 0;
+    border-top: 1px solid #000;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    position: absolute;
+    max-height: 0;
+    visibility: hidden;
+    transition: max-height 0.1s ease-in;
+  }
+  
+  .faq .inner-text {
+    margin-top: 2rem;
+  }
+  
+  /* show list item */
+  .faq li.show p {
+    max-height: 700px;
+    position: relative;
+    visibility: visible;
+  }
+  
+
+/* FOOTER */
 footer{
     color: #757575;
     margin: 3rem auto;
@@ -238,6 +301,8 @@ footer .language:active{
     box-shadow: 0 0 0 2px #fff;
 
 }
+
+
 
 footer .dropdown-list ul{
     display: none;
