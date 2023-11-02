@@ -43,6 +43,14 @@ body{
 .header h1{
     margin-bottom: 1rem;
 }
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
 .header .inner-text{
     width: 50%;
     text-align: center;
@@ -124,6 +132,10 @@ ul{
     width: 90%;
 }
 
+.inner-title{
+    font-size: 1.8rem;
+}
+
 .email{
     margin: 1rem;
 }
@@ -164,7 +176,8 @@ ul{
     top: 95px;
     z-index: -1;
 }
-case2{
+
+.case2{
     width: 90%;
 }
 
@@ -210,6 +223,23 @@ case2{
     left: 120px;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
 
 /* faq list */
 .faq {
@@ -314,7 +344,26 @@ footer .language:active{
 
 }
 
+.fa-plus::before{
+    content: "\f067";
+}
 
+.fa, .fas{
+    font-weight: 900;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fab, .fad, .fal, .far, .fas{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
 
 footer .dropdown-list ul{
     display: none;
