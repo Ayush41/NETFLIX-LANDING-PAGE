@@ -129,7 +129,7 @@ ul{
     border: 3px solid #333;
     flex: 1;
 }
-
+/* SHowcase1 */
 .showcase{
     border-bottom: 10px solid #333;
     padding: 2rem 0;
@@ -152,3 +152,42 @@ ul{
     top: 95px;
     z-index: -1;
 }
+case2{
+    width: 90%;
+}
+
+.showcase-container .case2 > .showcase-img{
+    margin: 1.2rem 0;
+}
+
+.downloading{
+ background: #000;   
+ width: 60%;
+ height: 125px;
+ position: absolute;
+ top: 335px;
+ left: 125px;
+ border: 5px solid #333;
+ border-radius: 10px;
+ padding: 0.7rem;
+ display: flex;
+
+}
+
+.downloading >img{
+    height: 100%;
+
+}
+
+.download-text{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-text >p{
+    color: #0066e3;
+}
+
+/* Showcase 3 */
