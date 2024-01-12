@@ -1,4 +1,9 @@
-# NETFLIX-LANDING-PAGE
+# NETFLIX-LANDING-PAGE<br>
+
+So in this project i used:-<br>
+HTML5<br>
+CSS3- Both Grid & Flex box model<br>
+JS- some javascript to give it basic functionality 
 
 
 Check THe website here:-
